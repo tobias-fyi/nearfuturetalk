@@ -9,7 +9,7 @@ Summary: A brief analysis of the velocities of technical terminology across diff
 
 ## Sci-fi, IRL
 
-This essay is the first in a series of data-driven essays, Sci-fi IRL, that will explore the relationship between science-fiction and IRL (in real life) science, technology, and philosophy.
+This essay is the first in a series of data-driven essays, Sci-fi IRL, that will explore the relationship between science-fiction and IRL (in real life) science, technology, and philosophy. It was originally published on my personal site, [tobias.fyi](https://tobias.fyi/technical-terminology-velocity.html).
 
 ## Introduction
 
