@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Near Future Talk</title><link href="http://www.nearfuturetalk.com/" rel="alternate"></link><link href="http://www.nearfuturetalk.com/feeds/all.atom.xml" rel="self"></link><id>http://www.nearfuturetalk.com/</id><updated>2019-09-03T00:00:00-06:00</updated><entry><title>NFT Post 1</title><link href="http://www.nearfuturetalk.com/post-one.html" rel="alternate"></link><published>2019-09-03T00:00:00-06:00</published><updated>2019-09-03T00:00:00-06:00</updated><author><name>Tobias Reaper</name></author><id>tag:www.nearfuturetalk.com,2019-09-03:/post-one.html</id><summary type="html">&lt;p&gt;Here's a short summary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Here's a Headline&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Near Future Talk</title><link href="https://nearfuturetalk.com/" rel="alternate"></link><link href="https://nearfuturetalk.com/feeds/all.atom.xml" rel="self"></link><id>https://nearfuturetalk.com/</id><updated>2019-09-03T00:00:00-06:00</updated><entry><title>NFT Post 1</title><link href="https://nearfuturetalk.com/post-one.html" rel="alternate"></link><published>2019-09-03T00:00:00-06:00</published><updated>2019-09-03T00:00:00-06:00</updated><author><name>Tobias Reaper</name></author><id>tag:nearfuturetalk.com,2019-09-03:/post-one.html</id><summary type="html">&lt;p&gt;Here's a short summary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Here's a Headline&lt;/h1&gt;
+&lt;p&gt;Here is the body content.&lt;/p&gt;
+&lt;h2&gt;A Smaller Headline&lt;/h2&gt;
+&lt;p&gt;And an image...one that is styled.&lt;/p&gt;
+&lt;p&gt;&lt;img class="size-auto" alt="Laptop" src="/images/laptop.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Here is a highlighted code snippet.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# 1. Import estimator class&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;sklearn.linear_model&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;LinearRegression&lt;/span&gt;
+
+&lt;span class="c1"&gt;# 2. Instantiate this class&lt;/span&gt;
+&lt;span class="n"&gt;linear_reg&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;LinearRegression&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="c1"&gt;# 3. Arrange X feature matrices (already did y target vectors)&lt;/span&gt;
+&lt;span class="n"&gt;features&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Pclass&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Age&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Fare&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;X_train&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;my_train&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;features&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;X_val&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;my_val&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;features&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Impute missing values&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;sklearn.impute&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;SimpleImputer&lt;/span&gt;
+&lt;span class="n"&gt;imputer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;SimpleImputer&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="n"&gt;X_train_imputed&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;imputer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fit_transform&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_train&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;X_val_imputed&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;imputer&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_val&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# 4. Fit the model&lt;/span&gt;
+&lt;span class="n"&gt;linear_reg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fit&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_train_imputed&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_train&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# 5. Apply the model to new data.&lt;/span&gt;
+&lt;span class="c1"&gt;# The predictions look like this ...&lt;/span&gt;
+&lt;span class="n"&gt;linear_reg&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;predict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X_val_imputed&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And that's all, folks!&lt;/p&gt;</content><category term="pelican"></category><category term="publishing"></category></entry><entry><title>NFT Post 2</title><link href="https://nearfuturetalk.com/post-two.html" rel="alternate"></link><published>2019-09-03T00:00:00-06:00</published><updated>2019-09-03T00:00:00-06:00</updated><author><name>Tobias Reaper</name></author><id>tag:nearfuturetalk.com,2019-09-03:/post-two.html</id><summary type="html">&lt;p&gt;Here's a short summary&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Here's a Headline&lt;/h1&gt;
 &lt;p&gt;Here is the body content.&lt;/p&gt;
 &lt;h2&gt;A Smaller Headline&lt;/h2&gt;
 &lt;p&gt;And an image...one that is styled.&lt;/p&gt;
