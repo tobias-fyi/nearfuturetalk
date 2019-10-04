@@ -1,4 +1,4 @@
-Title: NFT Post 1
+Title: Technical Terminology Velocity
 Date: 2019-09-27
 Modified: 2019-10-03
 Category: Python
